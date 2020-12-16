@@ -1,0 +1,334 @@
+m255
+K3
+z0
+13
+cModel Technology
+dD:\modeltech_10.1a\win32
+T_opt
+!s110 1607604020
+VJhJ<N1z0Yi:6i<Lkmb]JP2
+04 9 4 work sccomp_tb fast 0
+=1-081f7107f769-5fd21734-2b2-72c
+o-quiet -auto_acc_if_foreign -work work +acc
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+valu
+!s110 1607603981
+!i10b 1
+!s100 Q9;=:Gl1`eQ1C@mJ8X_7B0
+IGaCTI4JlEA53dF>@76<hS0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/Administrator/Desktop/SCCPU_SIM
+w1607598373
+8C:/Users/Administrator/Desktop/SCCPU_SIM/alu.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/alu.v
+L0 3
+Z3 OL;L;10.5;63
+r1
+!s85 0
+31
+Z4 !s108 1607603981.000000
+!s107 ctrl_encode_def.v|C:/Users/Administrator/Desktop/SCCPU_SIM/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/alu.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0
+vctrl
+Z6 !s110 1607603982
+!i10b 1
+!s100 <9zPOe`nA6[;;WYPMWfC>1
+I[LBG43^UE[nm4zY4`zQ^l0
+R1
+R2
+w1607602222
+8C:/Users/Administrator/Desktop/SCCPU_SIM/ctrl.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/ctrl.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Administrator/Desktop/SCCPU_SIM/ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/ctrl.v|
+!i113 0
+R5
+R0
+vdm
+R6
+!i10b 1
+!s100 WiJ40XKP8aUYcRI<FS8DL3
+I:Z1MdkVmz0c:_m?@5fmX_2
+R1
+R2
+w1572064098
+8C:/Users/Administrator/Desktop/SCCPU_SIM/dm.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/dm.v
+L0 3
+R3
+r1
+!s85 0
+31
+Z7 !s108 1607603982.000000
+!s107 C:/Users/Administrator/Desktop/SCCPU_SIM/dm.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/dm.v|
+!i113 0
+R5
+R0
+vEXT
+R6
+!i10b 1
+!s100 d`GCF]Xe]JFP6O7KiSl;j1
+I=knS8nz0<Gnao<<6E_0Z=1
+R1
+R2
+w1572065286
+8C:/Users/Administrator/Desktop/SCCPU_SIM/EXT.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/EXT.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Administrator/Desktop/SCCPU_SIM/EXT.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/EXT.v|
+!i113 0
+R5
+R0
+n@e@x@t
+vim
+R6
+!i10b 1
+!s100 U;JIL?DAR;UKk>XKgK4W72
+IVV>;O[1T5ePCD3cMSFb302
+R1
+R2
+w1551458228
+8C:/Users/Administrator/Desktop/SCCPU_SIM/im.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/im.v
+L0 3
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Administrator/Desktop/SCCPU_SIM/im.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/im.v|
+!i113 0
+R5
+R0
+vmux16
+R6
+!i10b 1
+!s100 _kD]@DiV[:SJ[]_:lBKV[0
+I5a7O=79mI5mI18]CRmWJd3
+R1
+R2
+Z8 w1550765554
+Z9 8C:/Users/Administrator/Desktop/SCCPU_SIM/mux.v
+Z10 FC:/Users/Administrator/Desktop/SCCPU_SIM/mux.v
+L0 71
+R3
+r1
+!s85 0
+31
+R7
+Z11 !s107 C:/Users/Administrator/Desktop/SCCPU_SIM/mux.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/mux.v|
+!i113 0
+R5
+R0
+vmux2
+R6
+!i10b 1
+!s100 QXC^TY7h[nMB8eh1LThKL1
+IGJCEGm`L2DSQl^MO;A9b`2
+R1
+R2
+R8
+R9
+R10
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+R11
+R12
+!i113 0
+R5
+R0
+vmux4
+R6
+!i10b 1
+!s100 3KQ[c;ZUY31^gKT9SAAk20
+I_E^a1Wen<7::=XXnMVRdo0
+R1
+R2
+R8
+R9
+R10
+L0 15
+R3
+r1
+!s85 0
+31
+R7
+R11
+R12
+!i113 0
+R5
+R0
+vmux8
+R6
+!i10b 1
+!s100 FLg[0F=fBIb=LWfFP8G0M0
+IUG6fI?U0bYLM0V8O6NMfJ1
+R1
+R2
+R8
+R9
+R10
+L0 40
+R3
+r1
+!s85 0
+31
+R7
+R11
+R12
+!i113 0
+R5
+R0
+vNPC
+R6
+!i10b 1
+!s100 FjOafM76`kAo[<A:n93=>0
+Ie;WHcnBPKE8OVYoGOP3=<0
+R1
+R2
+w1551202020
+8C:/Users/Administrator/Desktop/SCCPU_SIM/NPC.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/NPC.v
+L0 3
+R3
+r1
+!s85 0
+31
+R7
+!s107 ctrl_encode_def.v|C:/Users/Administrator/Desktop/SCCPU_SIM/NPC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/NPC.v|
+!i113 0
+R5
+R0
+n@n@p@c
+vPC
+R6
+!i10b 1
+!s100 lM7N@gR;4fMz]3L;mLgJ<2
+I>J<ZPLK_^6LA]S6P8UmmC3
+R1
+R2
+w1550113688
+8C:/Users/Administrator/Desktop/SCCPU_SIM/PC.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/PC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Administrator/Desktop/SCCPU_SIM/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/PC.v|
+!i113 0
+R5
+R0
+n@p@c
+vRF
+R6
+!i10b 1
+!s100 e?U@1Fe^@gYOeA1VZZ@]^0
+ICW0UPb1MC@4f>;:UJYV9a1
+R1
+R2
+w1551271794
+8C:/Users/Administrator/Desktop/SCCPU_SIM/RF.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/RF.v
+L0 2
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Administrator/Desktop/SCCPU_SIM/RF.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/RF.v|
+!i113 0
+R5
+R0
+n@r@f
+vsccomp
+R6
+!i10b 1
+!s100 ]5^fQm3XgO=UaQjeOERVe3
+IF>J[nHQ>XVzW7QW;bTlb;1
+R1
+R2
+w1572074286
+8C:/Users/Administrator/Desktop/SCCPU_SIM/sccomp.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/sccomp.v
+L0 1
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Administrator/Desktop/SCCPU_SIM/sccomp.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/sccomp.v|
+!i113 0
+R5
+R0
+vsccomp_tb
+R6
+!i10b 1
+!s100 V0YU<bjhiDQI8YUPUR8Rd3
+IB_HGl87N`T:`Nl`P@M>5X1
+R1
+R2
+w1607602943
+8C:/Users/Administrator/Desktop/SCCPU_SIM/sccomp_tb.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/sccomp_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/Administrator/Desktop/SCCPU_SIM/sccomp_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/sccomp_tb.v|
+!i113 0
+R5
+R0
+vsccpu
+!s110 1607604014
+!i10b 1
+!s100 0EMQ=`hQamU<cd3JHaX`=3
+IcOih0`lCnCXVLhk>gOz^I0
+R1
+R2
+w1607604007
+8C:/Users/Administrator/Desktop/SCCPU_SIM/sccpu.v
+FC:/Users/Administrator/Desktop/SCCPU_SIM/sccpu.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1607604014.000000
+!s107 C:/Users/Administrator/Desktop/SCCPU_SIM/sccpu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Administrator/Desktop/SCCPU_SIM/sccpu.v|
+!i113 0
+R5
+R0
