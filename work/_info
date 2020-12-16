@@ -15,16 +15,16 @@ n@_opt
 OL;O;10.5;63
 R0
 T_opt1
-!s110 1608115741
-V;P8`@N8JaZ4KZnTS2QCDj0
+!s110 1608119005
+V@9oCOYVoKHV^4XJacGPIl2
 R1
-=1-e86a64e40409-5fd9e61b-1f9-3554
+=6-e86a64e40409-5fd9f2dc-36a-3554
 R2
 R3
 n@_opt1
 OL;O;10.6d;65
 valu
-Z4 !s110 1608115727
+Z4 !s110 1608118997
 !i10b 1
 !s100 RnFXnZz88o8Gh`9dTXKUC3
 I9I29T6<kcjLGVoZ_XYKAk2
@@ -38,7 +38,7 @@ Z7 OL;L;10.6d;65
 r1
 !s85 0
 31
-Z8 !s108 1608115727.000000
+Z8 !s108 1608118997.000000
 !s107 ctrl_encode_def.v|C:/Users/86176/Desktop/SCCPU_SIM/alu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/alu.v|
 !i113 0
@@ -47,11 +47,11 @@ R3
 vctrl
 R4
 !i10b 1
-!s100 Lz7geeY282bCL3Yn[N0nL2
-I=gH0Q5ld>6V59G6aH@SJB2
+!s100 9;11nT1G91T@fYaUUIfJF0
+ILUe>BhcUzD]cdLW5K6HkC3
 R5
 R6
-w1608115719
+w1608118950
 8C:/Users/86176/Desktop/SCCPU_SIM/ctrl.v
 FC:/Users/86176/Desktop/SCCPU_SIM/ctrl.v
 L0 4
@@ -66,7 +66,7 @@ R8
 R9
 R3
 vdm
-Z10 !s110 1608115729
+Z10 !s110 1608118999
 !i10b 1
 !s100 WiJ40XKP8aUYcRI<FS8DL3
 IBMZkL1JkCD]i@3ToDoI@b1
@@ -80,7 +80,7 @@ R7
 r1
 !s85 0
 31
-Z11 !s108 1608115729.000000
+Z11 !s108 1608118999.000000
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/dm.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/dm.v|
 !i113 0
@@ -109,7 +109,7 @@ R9
 R3
 n@e@x@t
 vim
-Z12 !s110 1608115730
+R10
 !i10b 1
 !s100 U;JIL?DAR;UKk>XKgK4W72
 Im^N4ikU[FIa4fXU<>]o_k0
@@ -130,97 +130,97 @@ R11
 R9
 R3
 vmux16
-R12
+R10
 !i10b 1
 !s100 _kD]@DiV[:SJ[]_:lBKV[0
 I<7@NI<;XoRPc2^_T<A=UD0
 R5
 R6
-Z13 w1550765554
-Z14 8C:/Users/86176/Desktop/SCCPU_SIM/mux.v
-Z15 FC:/Users/86176/Desktop/SCCPU_SIM/mux.v
+Z12 w1550765554
+Z13 8C:/Users/86176/Desktop/SCCPU_SIM/mux.v
+Z14 FC:/Users/86176/Desktop/SCCPU_SIM/mux.v
 L0 71
 R7
 r1
 !s85 0
 31
-Z16 !s108 1608115730.000000
-Z17 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mux.v|
-Z18 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mux.v|
+R11
+Z15 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mux.v|
+Z16 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mux.v|
 !i113 0
 R9
 R3
 vmux2
-R12
+R10
 !i10b 1
 !s100 QXC^TY7h[nMB8eh1LThKL1
 I8kLCOoGTngL;:[ejz[XmO0
 R5
 R6
+R12
 R13
 R14
-R15
 L0 2
 R7
 r1
 !s85 0
 31
+R11
+R15
 R16
-R17
-R18
 !i113 0
 R9
 R3
 vmux4
-R12
+R10
 !i10b 1
 !s100 3KQ[c;ZUY31^gKT9SAAk20
 IRnU4W8?h<N:C4znjRH5OW1
 R5
 R6
+R12
 R13
 R14
-R15
 L0 15
 R7
 r1
 !s85 0
 31
+R11
+R15
 R16
-R17
-R18
 !i113 0
 R9
 R3
 vmux8
-R12
+R10
 !i10b 1
 !s100 FLg[0F=fBIb=LWfFP8G0M0
 I@M[:8AM?n9HiB0iI1aBeL0
 R5
 R6
+R12
 R13
 R14
-R15
 L0 40
 R7
 r1
 !s85 0
 31
+R11
+R15
 R16
-R17
-R18
 !i113 0
 R9
 R3
 vNPC
-R12
+R10
 !i10b 1
-!s100 FjOafM76`kAo[<A:n93=>0
-IcaQHQfVc1cjCCTJGQ<L7n2
+!s100 _GlUFg<SXL]0m2X3NiDig1
+IEe8Ecm_DV>>i_kELh`@bf0
 R5
 R6
-w1551202020
+w1608118169
 8C:/Users/86176/Desktop/SCCPU_SIM/NPC.v
 FC:/Users/86176/Desktop/SCCPU_SIM/NPC.v
 L0 3
@@ -228,7 +228,7 @@ R7
 r1
 !s85 0
 31
-R16
+R11
 !s107 ctrl_encode_def.v|C:/Users/86176/Desktop/SCCPU_SIM/NPC.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/NPC.v|
 !i113 0
@@ -236,7 +236,7 @@ R9
 R3
 n@n@p@c
 vPC
-R12
+Z17 !s110 1608119000
 !i10b 1
 !s100 lM7N@gR;4fMz]3L;mLgJ<2
 IN=<4Pj7MhjNZHI>Wf65I40
@@ -250,7 +250,7 @@ R7
 r1
 !s85 0
 31
-R16
+R11
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/PC.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/PC.v|
 !i113 0
@@ -258,7 +258,7 @@ R9
 R3
 n@p@c
 vRF
-R12
+R17
 !i10b 1
 !s100 e?U@1Fe^@gYOeA1VZZ@]^0
 I4@j62ZdgdPgP8@YSIAbmV2
@@ -272,7 +272,7 @@ R7
 r1
 !s85 0
 31
-R16
+Z18 !s108 1608119000.000000
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/RF.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/RF.v|
 !i113 0
@@ -280,7 +280,7 @@ R9
 R3
 n@r@f
 vsccomp
-R12
+R17
 !i10b 1
 !s100 ]5^fQm3XgO=UaQjeOERVe3
 IXeWacoUgh4EoDQOh[MNY_3
@@ -294,14 +294,14 @@ R7
 r1
 !s85 0
 31
-R16
+R18
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/sccomp.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/sccomp.v|
 !i113 0
 R9
 R3
 vsccomp_tb
-R12
+R17
 !i10b 1
 !s100 DDPBHBcWCF7d7MoAoCS1W3
 IY;MKN``97[kNVR>;=O4a_1
@@ -315,20 +315,20 @@ R7
 r1
 !s85 0
 31
-R16
+R18
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/sccomp_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/sccomp_tb.v|
 !i113 0
 R9
 R3
 vsccpu
-R12
+R17
 !i10b 1
-!s100 :^cX:C5^@NVGjI`FWLNoP3
-Ia=iTQCnzadT5][Mj[P2E?1
+!s100 m8@dlf[Yb9NVb7K4X>RCR1
+I^QOHz]gKD5?Rb]ZSh9b;32
 R5
 R6
-w1608115607
+w1608118112
 8C:/Users/86176/Desktop/SCCPU_SIM/sccpu.v
 FC:/Users/86176/Desktop/SCCPU_SIM/sccpu.v
 L0 1
@@ -336,7 +336,7 @@ R7
 r1
 !s85 0
 31
-R16
+R18
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/sccpu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/sccpu.v|
 !i113 0

@@ -1,4 +1,13 @@
-C:/Users/86176/Desktop/SCCPU_SIM/RF.v {1 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/RF.v
+C:/Users/86176/Desktop/SCCPU_SIM/sccpu.v {2 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/sccpu.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module sccpu
+** Warning: (vlog-2121) C:/Users/86176/Desktop/SCCPU_SIM/sccpu.v(99): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+** Warning: (vlog-2121) C:/Users/86176/Desktop/SCCPU_SIM/sccpu.v(99): Illegal concatenation of an unsized constant. Will treat it as a 32-bit value.
+
+Top level modules:
+	sccpu
+
+} {} {}} C:/Users/86176/Desktop/SCCPU_SIM/RF.v {1 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/RF.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module RF
 
@@ -29,6 +38,13 @@ Top level modules:
 } {} {}} C:/Users/86176/Desktop/SCCPU_SIM/ctrl_encode_def.v {1 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/ctrl_encode_def.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 
+} {} {}} C:/Users/86176/Desktop/SCCPU_SIM/NPC.v {1 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/NPC.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module NPC
+
+Top level modules:
+	NPC
+
 } {} {}} C:/Users/86176/Desktop/SCCPU_SIM/dm.v {1 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/dm.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module dm
@@ -42,13 +58,6 @@ Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 
 Top level modules:
 	EXT
-
-} {} {}} C:/Users/86176/Desktop/SCCPU_SIM/NPC.v {1 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/NPC.v
-Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module NPC
-
-Top level modules:
-	NPC
 
 } {} {}} C:/Users/86176/Desktop/SCCPU_SIM/alu.v {1 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/alu.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
