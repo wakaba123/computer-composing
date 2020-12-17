@@ -98,7 +98,7 @@ module ctrl(clk, rst, Zero, Op, Funct,
      EXTOp    = 1;           // signed extension
      ALUSrcA  = 2'b01;       // 1 - ReadData1
      ALUSrcB  = 2'b00;       // 0 - ReadData2
-     ALUOp    = 4'b0001;      // ALU_ADD       3'b001
+     ALUOp    = 4'b0001;     // ALU_ADD       3'b001
      GPRSel   = 2'b00;       // GPRSel_RD     2'b00
      WDSel    = 2'b00;       // WDSel_FromALU 2'b00
      PCSource = 2'b00;       // PC + 4 (ALU)
@@ -137,18 +137,18 @@ module ctrl(clk, rst, Zero, Op, Funct,
            ALUOp[2] = i_or | i_ori | i_slt | i_sltu | i_sll | i_slti | i_sllv;
            ALUOp[3] = i_nor | i_lui | i_srl | i_srlv;
 		   
-           if (i_beq) begin
+           if (i_beq | i_bne) begin
              PCSource = 2'b01; // ALUout, branch address
-             PCWrite = i_beq & Zero;
+             PCWrite = (i_beq & Zero) | (i_bne & ~Zero);
              nextstate = sif;
            end else if (i_lw || i_sw) begin
              ALUSrcB = 2'b10; // select offset
              nextstate = smem;
-		   end else if(i_sll) begin
+		   end else if(i_sll | i_srl) begin
 			 ALUSrcA = 2'b10;  //sa
 			 nextstate = swb;
 		   end  else begin
-             if (i_addi || i_ori)
+             if (i_addi | i_ori | i_lui | i_slti | i_andi)
                ALUSrcB = 2'b10; // select immediate
              if (i_ori)
                EXTOp = 0; // zero extension
