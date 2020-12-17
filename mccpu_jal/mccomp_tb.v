@@ -12,8 +12,8 @@ module mccomp_tb();
    );
    
    initial begin
-      $readmemh( "mipstestloopjal_sim.dat" , U_MCCOMP.U_DM.dmem); // load instructions into instruction memory
-//      $monitor("PC = 0x%8X, instr = 0x%8X", U_MCCOMP.PC, U_MCCOMP.instr); // used for debug
+      $readmemh( "123.dat" , U_MCCOMP.U_DM.dmem); // load instructions into instruction memory
+      $monitor("PC = 0x%8X, instr = 0x%8X", U_MCCOMP.PC, U_MCCOMP.instr); // used for debug
       clk = 1;
       rstn = 1;
       #5 ;

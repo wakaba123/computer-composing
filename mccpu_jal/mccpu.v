@@ -18,14 +18,14 @@ module mccpu( clk, rst, instr, readdata, PC, MemWrite, adr, writedata, reg_sel, 
    wire        PCWrite;     // control signal for PC write
    wire        IRWrite;     // control signal for IR write
    wire        EXTOp;       // control signal to signed extension
-   wire [2:0]  ALUOp;       // ALU opertion
+   wire [3:0]  ALUOp;       // ALU opertion
    wire [1:0]  PCSource;    // next PC operation
    wire        IorD;         // memory access for instruction or data
 
    wire [1:0]  WDSel;       // (register) write data selection
    wire [1:0]  GPRSel;      // general purpose register selection
    
-   wire        ALUSrcA;     // ALU source for A
+   wire [1:0]  ALUSrcA;     // ALU source for A
    wire [1:0]  ALUSrcB;     // ALU source for B
    wire        Zero;        // ALU ouput zero
 
@@ -41,6 +41,7 @@ module mccpu( clk, rst, instr, readdata, PC, MemWrite, adr, writedata, reg_sel, 
    wire [15:0] Imm16;       // 16-bit immediate
    wire [31:0] Imm32;       // 32-bit immediate
    wire [25:0] IMM;         // 26-bit immediate (address)
+   wire [10:6] SA;			// shift amount
    wire [4:0]  A3;          // register address for write
    wire [31:0] WD;          // register write data
    wire [31:0] RD1;         // register data specified by rs
@@ -52,13 +53,14 @@ module mccpu( clk, rst, instr, readdata, PC, MemWrite, adr, writedata, reg_sel, 
    wire [31:0] data;        // data
    wire [31:0] NPC;         // NPC
    
-   assign Op = instr[31:26];  // instruction
-   assign Funct = instr[5:0]; // funct
-   assign rs = instr[25:21];  // rs
-   assign rt = instr[20:16];  // rt
-   assign rd = instr[15:11];  // rd
-   assign Imm16 = instr[15:0];// 16-bit immediate
-   assign IMM = instr[25:0];  // 26-bit immediate
+   assign Op    = instr[31:26]; // instruction
+   assign Funct = instr[5:0];   // funct
+   assign rs    = instr[25:21]; // rs
+   assign rt    = instr[20:16]; // rt
+   assign rd    = instr[15:11]; // rd
+   assign Imm16 = instr[15:0];  // 16-bit immediate
+   assign IMM   = instr[25:0];  // 26-bit immediate  (address)
+   assign SA    = instr[10:6];  // 5-bit shift amout
    
    // instantiation of control unit
    ctrl U_CTRL ( 
@@ -107,8 +109,8 @@ module mccpu( clk, rst, instr, readdata, PC, MemWrite, adr, writedata, reg_sel, 
    flopr  #(32) U_BR(clk, rst, RD2, B);//B register
 
    // mux for ALU A
-   mux2 #(32) U_MUX_ALU_A (
-      .d0(PC), .d1(A), .s(ALUSrcA), .y(ALUA)
+   mux4 #(32) U_MUX_ALU_A (
+      .d0(PC), .d1(A), .d2({{{0}*27},SA}), .d3(32'b0) ,.s(ALUSrcA), .y(ALUA)
    ); 
    
    // mux for signed extension or zero extension
