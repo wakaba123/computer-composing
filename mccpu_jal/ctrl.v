@@ -117,8 +117,19 @@ module ctrl(clk, rst, Zero, Op, Funct,
              PCSource = 2'b10; // JUMP address
              PCWrite = 1;
              nextstate = sif;
-           end else if (i_jal) begin
+           end else if(i_jr) begin
+		     PCSource = 2'b11; // JUMP address
+             PCWrite = 1;
+             nextstate = sif;
+		   end else if (i_jal) begin
              PCSource = 2'b10; // JUMP address
+             PCWrite = 1; 
+             RegWrite = 1;
+             WDSel = 2'b10;    // WDSel_FromPC  2'b10 
+             GPRSel = 2'b10;   // GPRSel_31     2'b10
+             nextstate = sif;
+		   end else if (i_jalr) begin
+             PCSource = 2'b11; // JUMP address
              PCWrite = 1; 
              RegWrite = 1;
              WDSel = 2'b10;    // WDSel_FromPC  2'b10 

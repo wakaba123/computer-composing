@@ -24,6 +24,13 @@ Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 Top level modules:
 	EXT
 
+} {} {}} C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/alu.v {1 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/alu.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module alu
+
+Top level modules:
+	alu
+
 } {} {}} C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v {1 {vlog -work work -vopt -stats=none C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 -- Compiling module mux2
