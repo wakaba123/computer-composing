@@ -61,13 +61,13 @@ module ctrl(Op, Funct, Zero,
   assign MemWrite   = i_sw;                           // memory write
   assign ALUSrcB    = i_lw | i_sw | i_addi | i_ori | i_lui | i_slti | i_andi;   // ALU B is from instruction immediate
   assign ALUSrcA    = i_sll | i_srl ;
-  assign EXTOp      = i_addi | i_lw | i_sw | i_andi | i_lui;           // signed extension
+  assign EXTOp      = i_addi | i_lw | i_sw | i_slti| i_lui;           // signed extension
 
   // GPRSel_RD   2'b00
   // GPRSel_RT   2'b01
   // GPRSel_31   2'b10
   assign GPRSel[0] = i_lw | i_addi | i_ori | i_lui | i_slti | i_andi;
-  assign GPRSel[1] = i_jal;
+  assign GPRSel[1] = i_jal | i_jalr;
   
   // WDSel_FromALU 2'b00
   // WDSel_FromMEM 2'b01

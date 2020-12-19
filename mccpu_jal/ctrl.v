@@ -161,7 +161,7 @@ module ctrl(clk, rst, Zero, Op, Funct,
 		   end  else begin
              if (i_addi | i_ori | i_lui | i_slti | i_andi)
                ALUSrcB = 2'b10; // select immediate
-             if (i_ori)
+             if (i_ori | i_andi)
                EXTOp = 0; // zero extension
              nextstate = swb;
            end
