@@ -7,309 +7,310 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dD:/modeltech64_10.6d/examples
+Z0 dD:/modeltech64_10.6d/examples
 T_opt
 !s110 1608217046
 VV:3ERIL:1>dHPD3AJ7mkV3
 04 9 4 work mccomp_tb fast 0
 =4-e86a64e40409-5fdb71d4-2f1-23f4
 o-quiet -auto_acc_if_foreign -work work +acc
-Z0 tCvgOpt 0
+Z1 tCvgOpt 0
 n@_opt
 OL;O;10.6d;65
+R0
 valu
-!s110 1608217036
+Z2 !s110 1608686583
 !i10b 1
 !s100 ]QFfP`54K:8DFV_][d<Mi0
 IGcm1_nETJW`UaBVJzWn991
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal
 w1608213626
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/alu.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/alu.v
 L0 3
-Z3 OL;L;10.6d;65
+Z5 OL;L;10.6d;65
 r1
 !s85 0
 31
-Z4 !s108 1608217036.000000
+Z6 !s108 1608686583.000000
 !s107 ctrl_encode_def.v|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/alu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/alu.v|
 !i113 0
-Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R0
-vctrl
-Z6 !s110 1608217037
-!i10b 1
-!s100 g@[:P`0K:5Z<P_Ajhh@UX3
-Ib7_^H_XKRADk1n9i8^]aa2
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
+vctrl
 R2
-w1608217033
+!i10b 1
+!s100 L1CdPiH;D:4:HXMb88IJC2
+IUg32EA[YGZoX6hTT[oh0o3
+R3
+R4
+w1608306361
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/ctrl.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/ctrl.v
 L0 4
-R3
+R5
 r1
 !s85 0
 31
-R4
+R6
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/ctrl.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/ctrl.v|
 !i113 0
-R5
-R0
+R7
+R1
 vdm
-R6
+R2
 !i10b 1
 !s100 WiJ40XKP8aUYcRI<FS8DL3
 IfL05`Y8^m<YmmA^X;[5_E1
-R1
-R2
+R3
+R4
 w1572064098
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/dm.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/dm.v
 L0 3
-R3
+R5
 r1
 !s85 0
 31
-Z7 !s108 1608217037.000000
+R6
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/dm.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/dm.v|
 !i113 0
-R5
-R0
+R7
+R1
 vEXT
-R6
+Z8 !s110 1608686584
 !i10b 1
 !s100 d`GCF]Xe]JFP6O7KiSl;j1
 ICaL4JgY1X=YMJjKQlSXjd0
-R1
-R2
+R3
+R4
 w1571500074
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/EXT.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/EXT.v
 L0 2
-R3
+R5
 r1
 !s85 0
 31
-R7
+R6
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/EXT.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/EXT.v|
 !i113 0
-R5
-R0
+R7
+R1
 n@e@x@t
 vflopenr
-R6
+R8
 !i10b 1
 !s100 aa[fbnBV=0Z<hjkS9O5en2
 IPJjlcV:4VXDYE^5n3_Z?W2
-R1
-R2
+R3
+R4
 w1571813108
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/flopenr.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/flopenr.v
 L0 1
-R3
+R5
 r1
 !s85 0
 31
-R7
+Z9 !s108 1608686584.000000
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/flopenr.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/flopenr.v|
 !i113 0
-R5
-R0
+R7
+R1
 vflopr
-R6
+R8
 !i10b 1
 !s100 cKR]Ja2?a7S:WW`X8LiH32
 I4cggSM>Y]7BWVE2ehXoaV1
-R1
-R2
+R3
+R4
 w1571662242
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/flopr.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/flopr.v
 L0 1
-R3
+R5
 r1
 !s85 0
 31
-R7
+R9
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/flopr.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/flopr.v|
 !i113 0
-R5
-R0
+R7
+R1
 vmccomp
-R6
+R8
 !i10b 1
 !s100 nLI2YIZM6AVMLGGC=X>T:2
 I:96Qf[WJRjY1j`onNZEbE2
-R1
-R2
+R3
+R4
 w1572073896
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccomp.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccomp.v
 L0 1
-R3
+R5
 r1
 !s85 0
 31
-R7
+R9
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccomp.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccomp.v|
 !i113 0
-R5
-R0
+R7
+R1
 vmccomp_tb
-R6
+R8
 !i10b 1
 !s100 Y<e4]9h22nBkE8dSj3H`H0
 IYi1MhSjRC@d9ZHBGmN=^61
-R1
-R2
+R3
+R4
 w1608198340
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccomp_tb.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccomp_tb.v
 L0 3
-R3
+R5
 r1
 !s85 0
 31
-R7
+R9
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccomp_tb.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccomp_tb.v|
 !i113 0
-R5
-R0
+R7
+R1
 vmccpu
-Z8 !s110 1608217038
+R8
 !i10b 1
 !s100 ]1^eD8lL`eM7[eLDHEBK31
 I5jIUbd^IFPLd8PBMeZ9>V3
-R1
-R2
+R3
+R4
 w1608215167
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccpu.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccpu.v
 L0 1
-R3
+R5
 r1
 !s85 0
 31
-Z9 !s108 1608217038.000000
+R9
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccpu.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mccpu.v|
 !i113 0
-R5
-R0
+R7
+R1
 vmux16
-R8
+Z10 !s110 1608686585
 !i10b 1
 !s100 _kD]@DiV[:SJ[]_:lBKV[0
 IWGKooidXAGPh2Q>5cM11l3
-R1
-R2
-Z10 w1571500140
-Z11 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v
-Z12 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v
-L0 71
 R3
+R4
+Z11 w1571500140
+Z12 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v
+Z13 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v
+L0 71
+R5
 r1
 !s85 0
 31
 R9
-Z13 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v|
-Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v|
+Z14 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v|
+Z15 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/mux.v|
 !i113 0
-R5
-R0
+R7
+R1
 vmux2
-R8
+R10
 !i10b 1
 !s100 QXC^TY7h[nMB8eh1LThKL1
 I1L]QfD][BjOjR2_zFJ]EW0
-R1
-R2
-R10
+R3
+R4
 R11
 R12
+R13
 L0 2
-R3
+R5
 r1
 !s85 0
 31
 R9
-R13
 R14
+R15
 !i113 0
-R5
-R0
+R7
+R1
 vmux4
-R8
+R10
 !i10b 1
 !s100 3KQ[c;ZUY31^gKT9SAAk20
 I[Z;J[:9903XUZFbaW9k<01
-R1
-R2
-R10
+R3
+R4
 R11
 R12
+R13
 L0 15
-R3
+R5
 r1
 !s85 0
 31
 R9
-R13
 R14
+R15
 !i113 0
-R5
-R0
+R7
+R1
 vmux8
-R8
+R10
 !i10b 1
 !s100 FLg[0F=fBIb=LWfFP8G0M0
 IXfG^c:8gdCaKlmkAYO?c?3
-R1
-R2
-R10
+R3
+R4
 R11
 R12
+R13
 L0 40
-R3
+R5
 r1
 !s85 0
 31
 R9
-R13
 R14
+R15
 !i113 0
-R5
-R0
+R7
+R1
 vRF
-R8
+R10
 !i10b 1
 !s100 e?U@1Fe^@gYOeA1VZZ@]^0
 I`33Tgi:AIYQ1BRDL]Afz`2
-R1
-R2
+R3
+R4
 w1571500702
 8C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/RF.v
 FC:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/RF.v
 L0 2
-R3
+R5
 r1
 !s85 0
 31
-R9
+!s108 1608686585.000000
 !s107 C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/RF.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/86176/Desktop/SCCPU_SIM/mysccpu/mccpu_jal/RF.v|
 !i113 0
-R5
-R0
+R7
+R1
 n@r@f
